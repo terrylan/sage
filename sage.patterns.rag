@@ -1,7 +1,14 @@
-[sage::metadata]
-[sage::core_concept]
-[sage::logic_structure]
-[sage::example]
-[sage::guidelines]
-[sage::faqs]
-[sage::glossary]
+[patterns::metadata]
+Purpose: To capture repeatable logic, concepts, or structures found across topics
+
+[patterns::example]
+Pattern: [mechanics::logic_structure]
+Used in: SAGE, SPMP, Modular RAG systems
+Form: Nested knowledge, modular logic, semantic labeling
+
+[patterns::core_concept]
+Patterns act as blueprints. They reveal shared DNA across domains. When embedded into `.rag` scrolls, they allow AI to infer and generalize efficiently.
+
+[patterns::glossary]
+Pattern: A recurring structure or method
+Blueprint: A higher-order pattern that informs logic or architecture
