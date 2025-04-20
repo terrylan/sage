@@ -1,7 +1,17 @@
-[sage::metadata]
-[sage::core_concept]
-[sage::logic_structure]
-[sage::example]
-[sage::guidelines]
-[sage::faqs]
-[sage::glossary]
+[model::metadata]
+Model Type: Cognitive-AI Hybrid
+Scope: Epistemology → Prompt Engineering → Knowledge Engineering
+
+[model::core_concept]
+SAGE models knowledge around layered scaffolds. Each scroll informs a layer. Combined, the scrolls enable AI systems to reason from first principles while guiding humans step-by-step.
+
+[model::logic_structure]
+1. Subject > Categories > Sections
+2. Each `.rag` = unit of thought
+3. Prompter or AI compiles `.rag` scrolls to build curriculum, systems, logic, or assistants
+
+[model::example]
+SPMP integration: Using `spmp.rbac.mechanics.rag` as a scroll to define access controls in the salon system
+
+[model::guidelines]
+Use category-specific logic trees to define each subject’s behavior in AI reasoning trees
