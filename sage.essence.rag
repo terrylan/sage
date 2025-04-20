@@ -1,7 +1,17 @@
-[sage::metadata]
-[sage::core_concept]
-[sage::logic_structure]
-[sage::example]
-[sage::guidelines]
-[sage::faqs]
-[sage::glossary]
+[essence::metadata]
+Title: SAGE – Structured AI Guided Epistemology
+Author: Terrylan Anicete Manalansan
+Version: 1.0
+Created: 2025-04-20
+Purpose: To structure knowledge so that both AI and humans can understand, teach, and build upon it collaboratively.
+
+[essence::core_concept]
+SAGE is a convention that organizes knowledge into scroll-like `.rag` files using clearly defined categories and semantic sections. It serves as a universal translator between human pedagogy and AI reasoning, allowing seamless interpretation, communication, and knowledge transfer.
+
+[essence::story]
+In a future where AI co-authors knowledge with humans, SAGE acts like a scroll carried by a sage—modular, evolving, and interpretable by all. It empowers AI not only to learn but to teach and collaborate.
+
+[essence::glossary]
+SAGE: Structured AI Guided Epistemology
+Scroll: A `.rag` file that houses structured knowledge
+Semantic Label: A format like [category::section] used to mark content meaningfully
