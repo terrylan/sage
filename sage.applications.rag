@@ -1,7 +1,12 @@
-[sage::metadata]
-[sage::core_concept]
-[sage::logic_structure]
-[sage::example]
-[sage::guidelines]
-[sage::faqs]
-[sage::glossary]
+[applications::metadata]
+Primary Use: Curriculum Design, AI Prompt Engineering, Knowledge Transmission, System Building
+
+[applications::example]
+Use Case: Teaching AI how SPMP's architecture works using layered `.rag` scrolls—e.g., spmp.essence.rag, spmp.mechanics.rag
+
+[applications::core_concept]
+The `.rag` format is applicable across industries and systems. It abstracts complexity while offering contextual depth, making it ideal for dynamic environments with humans and AIs co-creating knowledge.
+
+[applications::guidelines]
+- Apply `.rag` files to SaaS, education, middleware, cognitive assistants
+- Use as curriculum core for AI-teacher hybrids
