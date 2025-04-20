@@ -34,8 +34,76 @@ Each category and section serves a specific purpose to ensure the scroll is usef
 
 ## SAGE Structure
 
-### Scroll Components:
-SAGE scrolls consist of a **Category** and **Sections**. Here’s a breakdown of each:
+SAGE scrolls are organized using a two-tier semantic labeling system that helps both humans and AI interpret and access knowledge with precision and clarity.
+
+### **File Naming Convention**
+
+Each scroll follows this naming format:
+
+```
+[subject].[category].rag
+```
+
+**Examples:**
+- `sage.essence.rag`
+- `sage.elements.rag`
+- `sage.mechanics.rag`
+
+This helps group knowledge by topic and theme, especially when managing large libraries of scrolls across different domains.
+
+---
+
+### **Semantic Section Labels**
+
+Each section within a scroll is labeled using this format:
+
+```
+[category::section]
+```
+
+This clarifies the context and purpose of each content block.
+
+**Examples:**
+- `[essence::metadata]`: Metadata about the essence of the subject.
+- `[elements::core_concept]`: The main idea behind the elements that make up the topic.
+- `[mechanics::logic_structure]`: A logic map or schema showing how the system works.
+- `[patterns::example]`: Concrete examples of observed behaviors.
+
+---
+
+### **Category Descriptions**
+
+| Category    | Purpose                                                                 |
+|-------------|-------------------------------------------------------------------------|
+| **Essence** | Captures the identity, spirit, and fundamental nature of the concept.   |
+| **Elements**| Lists the building blocks or fundamental units of the subject.          |
+| **Mechanics**| Describes how elements interact or function together.                  |
+| **Patterns** | Highlights recurring structures, behaviors, or phenomena.              |
+| **Models**   | Introduces frameworks, diagrams, or systems that simplify complexity.  |
+| **Applications** | Shows practical implementations or real-world relevance.         |
+| **Adaptability** | Explores modifications and how the concept evolves or adapts.     |
+
+---
+
+### **Common Sections**
+
+Each scroll may contain one or more of these sections, nested within a category:
+
+| Section        | Description                                                                 |
+|----------------|-----------------------------------------------------------------------------|
+| **metadata**       | Tags, learning objectives, difficulty level, etc.                    |
+| **core_concept**   | The main idea being taught or conveyed.                              |
+| **example**        | Real or hypothetical scenario for understanding.                     |
+| **story**          | A human-readable narrative to enhance engagement.                    |
+| **logic_structure**| A formal layout or schema for AI systems to interpret relationships. |
+| **guidelines**     | Prescriptive how-to or best practices.                               |
+| **faqs**           | Frequently asked questions and clarifications.                       |
+| **glossary**       | Definitions for key terms used in the scroll.                        |
+
+---
+
+By combining the semantic labels with a structured naming convention, SAGE ensures that every scroll is clear, modular, interoperable, and future-proof.
+
 
 
 ### **Categories**
