@@ -1,7 +1,19 @@
-[sage::metadata]
-[sage::core_concept]
-[sage::logic_structure]
-[sage::example]
-[sage::guidelines]
-[sage::faqs]
-[sage::glossary]
+[mechanics::metadata]
+Processing Type: Modular, Extensible
+Interpretable By: Humans, Large Language Models, Prompt-based AIs
+
+[mechanics::logic_structure]
+1. Each `.rag` file = a scroll
+2. Each scroll = a category of a subject
+3. Each scroll contains sections labeled semantically
+4. AI interprets labels to determine reasoning chain
+5. Prompters use scrolls to compose system-agnostic knowledge bases
+
+[mechanics::guidelines]
+- Use consistent indentation and label formats
+- Follow naming: subject.category.rag
+- Maintain forward compatibility by versioning
+
+[mechanics::faqs]
+Q: Can a category contain subcategories?
+A: Yes, use nested scrolls or prefix-based labeling like [mechanics.execution::core_concept]
