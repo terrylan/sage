@@ -1,7 +1,18 @@
-[sage::metadata]
-[sage::core_concept]
-[sage::logic_structure]
-[sage::example]
-[sage::guidelines]
-[sage::faqs]
-[sage::glossary]
+[adaptability::metadata]
+Supports: Evolution, Forking, Personalization
+
+[adaptability::core_concept]
+SAGE scrolls are not rigid blueprints. They can be forked, remixed, layered, versioned, or even embedded into systems as live documentation or logic modules.
+
+[adaptability::example]
+Customized Scroll: `spmp.vibe.mechanics.rag` to define how SPMP supports Vibe Coding  
+Embedded Scroll: `.rag` content piped directly into prompt templates or app logic
+
+[adaptability::guidelines]
+- Encourage modularity and reuse
+- Allow contributors to branch `.rag` scrolls
+- Maintain changelogs in [essence::metadata] for each fork
+
+[adaptability::faqs]
+Q: Is SAGE future-proof?
+A: Yes—scrolls evolve, but structure remains stable, modular, and interpretable.
