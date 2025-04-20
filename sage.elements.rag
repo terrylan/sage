@@ -1,7 +1,20 @@
-[sage::metadata]
-[sage::core_concept]
-[sage::logic_structure]
-[sage::example]
-[sage::guidelines]
-[sage::faqs]
-[sage::glossary]
+[elements::metadata]
+Defined Categories: Essence, Elements, Mechanics, Patterns, Model, Applications, Adaptability
+Common Sections: metadata, core_concept, logic_structure, example, guidelines, faqs, glossary
+
+[elements::core_concept]
+Each category within SAGE has specific knowledge functions. The combination of categories ensures full spectrum coverage of a topic—from philosophical grounding to practical use.
+
+[elements::example]
+Example Category: Mechanics  
+Example Section: logic_structure  
+Result: [mechanics::logic_structure] block in a `.rag` file
+
+[elements::guidelines]
+- Each subject should have a .rag file per category.
+- Avoid mixing categories inside one file.
+- Maintain consistency with semantic labeling.
+
+[elements::glossary]
+Category: High-level groupings (e.g., mechanics, patterns)
+Section: Subdivisions under a category (e.g., core_concept, example)
