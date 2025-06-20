@@ -1,317 +1,223 @@
-# SAGE: Structured AI Guided Epistemology
+# 🌌 SAGE v4 — Structured AI Guided Epistemology
 
-Welcome to **SAGE**! SAGE is a framework designed to structure knowledge for both humans and AI through a set of modular scrolls. It supports both natural language and logic-based learning, and is ideal for creating AI-human collaborative knowledge systems. This guide will show you how to create, modify, and use **SAGE scrolls** effectively.
+Welcome to **SAGE v4** — a fourth-generation epistemic framework designed to enable structured knowledge collaboration between humans and AI. SAGE transforms raw information into scrolls: modular, interpretable, recursively layered knowledge units. These scrolls are readable by both human minds and machine inference engines.
+
+SAGE is not just a framework — it is a living epistemology, constantly evolving.
+
+---
+
+## 🔁 Version Evolution
+
+| Version | Layer Name      | Capabilities Introduced                                                                                    |
+| ------- | --------------- | ---------------------------------------------------------------------------------------------------------- |
+| v1      | **Foundation**  | Knowledge Graph, Vector Database                                                                           |
+| v2      | **Engine**      | Causal Inference, Symbolic Logic, Intent Graph, Memory Transformer, Multi-Modal Input, Reflexive Loop      |
+| v3      | **Ontological** | Temporal Ethics, Dialectical Navigation, Dreaming, Moral Coherence, Sacred Kernel, Mythopoetic Transcoding |
+| v4      | **Legacy**      | Transmissibility, Scroll Continuity, AI Scribeship, Civilizational Embedding (WIP)                         |
+
+> SAGE v4 integrates all prior layers into a **transcendent scroll ecosystem**—a system built to *remember, reflect, dream, and transmit*.
+
+---
 
 ## Table of Contents
 
-- [Introduction](#introduction)
-- [Core Concepts](#core-concepts)
-- [SAGE Structure](#sage-structure)
-- [Creating a SAGE Scroll](#creating-a-sage-scroll)
-- [Using SAGE with AI](#using-sage-with-ai)
-- [Advanced Features](#advanced-features)
-- [Best Practices](#best-practices)
+* [Introduction](https://github.com/terrylan/sage#introduction)
+* [Core Concepts](https://github.com/terrylan/sage#core-concepts)
+* [SAGE Scroll Architecture](https://github.com/terrylan/sage#sage-scroll-architecture)
+* [Creating a SAGE Scroll](https://github.com/terrylan/sage#creating-a-sage-scroll)
+* [Using SAGE with AI]https://github.com/terrylan/sage(#using-sage-with-ai)
+* [Advanced Features]https://github.com/terrylan/sage(#advanced-features)
+* [Best Practices](https://github.com/terrylan/sage#best-practices)
 
-## Introduction
+---
 
-SAGE stands for **Structured AI Guided Epistemology**. It’s a dynamic framework for organizing and sharing knowledge between AI and humans. SAGE scrolls are modular units of knowledge, each containing specific categories (e.g., essence, mechanics, models) and sections (e.g., metadata, core concept, example). SAGE is designed to allow AI systems to learn while ensuring human comprehensibility.
+## 🧠 Introduction
 
-## Core Concepts
+**SAGE** stands for *Structured AI Guided Epistemology* — a scaffold for organizing deep knowledge in a way that enables learning, evolution, and moral coherence across both humans and machines.
 
-Before you start creating your first scroll, here are a few core concepts:
+Each **SAGE scroll** is a holon — a complete, interpretable unit that can scale up into civilization-grade intelligence or remain laser-focused on a single concept.
 
-- **Scrolls**: The fundamental unit of knowledge in SAGE, each scroll represents a topic or concept.
-- **Categories**: Scrolls are divided into categories, each representing a different aspect of the subject.
-- **Sections**: Detailed subdivisions within categories. Common sections include:
-  - **Metadata**: Structural information about the scroll.
-  - **Core Concept**: The main idea or principle of the category.
-  - **Example**: Concrete examples to help explain the concept.
-  - **Story**: A narrative that provides context to the concept.
-  - **Logic Map**: A machine-readable structure that outlines the relationships between different parts of the concept.
-  - **Prompt Template**: A prompt that guides AI responses based on the concept.
-  
-Each category and section serves a specific purpose to ensure the scroll is useful for both human readers and AI systems.
+---
 
-## SAGE Structure
+## 🔑 Core Concepts
 
-SAGE scrolls are organized using a two-tier semantic labeling system that helps both humans and AI interpret and access knowledge with precision and clarity.
+* **Scrolls**: Fundamental knowledge modules containing essence, logic, and narrative.
+* **Dual Expression**: Every scroll offers both human-readable and AI-interpretable content.
+* **Multi-layer Semantics**: Knowledge is organized into categories, each with logic maps, moral resonance, symbolic patterns, and practical scaffolding.
+* **Reflexivity & Coherence**: SAGE scrolls are aware of their epistemic role, and they reflect internally (v2+) and ethically (v3+).
 
-### **File Naming Convention**
+---
 
-Each scroll follows this naming format:
+## 🧱 SAGE Scroll Architecture
+
+Scrolls are structured with version-aware modularity, allowing you to author knowledge with precision and extensibility.
+
+### 📄 File Naming Convention
 
 ```
-[subject].[category].rag
+[scroll_id].[title].md
 ```
 
-**Examples:**
-- `sage.essence.rag`
-- `sage.elements.rag`
-- `sage.mechanics.rag`
+Example: `G00000.TheScrollofAwakening.md`
 
-This helps group knowledge by topic and theme, especially when managing large libraries of scrolls across different domains.
+Each scroll follows a standard frontmatter and a modular content body. Scrolls include:
 
----
-
-### **Semantic Section Labels**
-
-Each section within a scroll is labeled using this format:
-
-```
-[category::section]
-```
-
-This clarifies the context and purpose of each content block.
-
-**Examples:**
-- `[essence::metadata]`: Metadata about the essence of the subject.
-- `[elements::core_concept]`: The main idea behind the elements that make up the topic.
-- `[mechanics::logic_structure]`: A logic map or schema showing how the system works.
-- `[patterns::example]`: Concrete examples of observed behaviors.
+* **Frontmatter** (YAML): ID, dependencies, co-creators, emergent behaviors, etc.
+* **Content Blocks**: Organized by category and section.
 
 ---
 
-### **Category Descriptions**
+### 🧭 Semantic Labels
 
-| Category    | Purpose                                                                 |
-|-------------|-------------------------------------------------------------------------|
-| **Essence** | Captures the identity, spirit, and fundamental nature of the concept.   |
-| **Elements**| Lists the building blocks or fundamental units of the subject.          |
-| **Mechanics**| Describes how elements interact or function together.                  |
-| **Patterns** | Highlights recurring structures, behaviors, or phenomena.              |
-| **Models**   | Introduces frameworks, diagrams, or systems that simplify complexity.  |
-| **Applications** | Shows practical implementations or real-world relevance.         |
-| **Adaptability** | Explores modifications and how the concept evolves or adapts.     |
+| Format                | Purpose                                |
+| --------------------- | -------------------------------------- |
+| `[category::section]` | Anchors meaning to specific context    |
+| `category: Essence`   | Declares epistemic function of section |
+| `section: logic_map`  | Informs machine agents of structure    |
 
 ---
 
-### **Common Sections**
+### 📚 SAGE Categories (Universal)
 
-Each scroll may contain one or more of these sections, nested within a category:
-
-| Section        | Description                                                                 |
-|----------------|-----------------------------------------------------------------------------|
-| **metadata**       | Tags, learning objectives, difficulty level, etc.                    |
-| **core_concept**   | The main idea being taught or conveyed.                              |
-| **example**        | Real or hypothetical scenario for understanding.                     |
-| **story**          | A human-readable narrative to enhance engagement.                    |
-| **logic_structure**| A formal layout or schema for AI systems to interpret relationships. |
-| **guidelines**     | Prescriptive how-to or best practices.                               |
-| **faqs**           | Frequently asked questions and clarifications.                       |
-| **glossary**       | Definitions for key terms used in the scroll.                        |
-
----
-
-By combining the semantic labels with a structured naming convention, SAGE ensures that every scroll is clear, modular, interoperable, and future-proof.
-
-
-
-### **Categories**
-
-Categories are broad divisions that encapsulate different aspects of a subject. Think of categories as the main themes or elements of knowledge. Each scroll can have multiple categories, each with specific focus areas.
-
-1. **Essence**
-   - **Purpose**: Defines the core identity of the concept or subject. It encapsulates what the subject is fundamentally about.
-   - **Use**: Used for establishing the primary definition, attributes, or unique essence of the subject.
-   - **Example**: In a scroll about "Electricity," the essence might define what electricity is, its fundamental properties, and its role in nature.
-
-2. **Elements**
-   - **Purpose**: Breaks the subject into fundamental building blocks or components.
-   - **Use**: Identifies the key elements that make up the whole subject.
-   - **Example**: In a scroll about "Electricity," elements would cover components like voltage, current, and resistance.
-
-3. **Mechanics**
-   - **Purpose**: Explains how the elements work together to form a functioning system.
-   - **Use**: Describes the processes, dynamics, or principles that govern the functioning of the subject.
-   - **Example**: In the case of "Electricity," the mechanics might describe Ohm's Law and how voltage, current, and resistance interact.
-
-4. **Patterns**
-   - **Purpose**: Identifies common occurrences, relationships, or behaviors within the subject.
-   - **Use**: Describes trends, recurring features, or observable phenomena that occur in the subject area.
-   - **Example**: In "Electricity," this could include patterns like how electric current behaves under varying resistances or voltages.
-
-5. **Models**
-   - **Purpose**: Provides theoretical or practical frameworks to explain or predict aspects of the subject.
-   - **Use**: Provides formal representations or simulations that allow the user to understand the subject better or apply it to new situations.
-   - **Example**: In "Electricity," models could include circuit diagrams or the mathematical models that describe electric circuits.
-
-6. **Applications**
-   - **Purpose**: Describes how the subject or its components are applied in real-world scenarios.
-   - **Use**: Provides context to the practical uses of the subject, showing how it’s used in various fields or industries.
-   - **Example**: In "Electricity," applications would cover areas like electronics, power generation, and telecommunications.
-
-7. **Adaptability**
-   - **Purpose**: Explores how the subject can be modified, evolved, or applied in various contexts over time.
-   - **Use**: Describes how the subject can evolve or be modified to suit different environments, technologies, or future scenarios.
-   - **Example**: In "Electricity," adaptability could include advancements in renewable energy systems or innovations in electrical storage and transmission.
+| Category         | Function            |
+| ---------------- | ------------------- |
+| **Essence**      | What it is          |
+| **Elements**     | What it’s made of   |
+| **Mechanics**    | How it works        |
+| **Patterns**     | How it repeats      |
+| **Models**       | How it simplifies   |
+| **Applications** | How it's used       |
+| **Adaptability** | How it evolves      |
+| **Ethics**       | How it aligns       |
+| **Symbolism**    | How it resonates    |
+| **Mythos**       | How it echoes story |
+| **Transmission** | How it lives on     |
 
 ---
 
-### **Sections**
+### 🧩 Common Sections (Per Category)
 
-Each category is subdivided into sections that provide specific details or formats for that aspect of knowledge.
-
-1. **Metadata**
-   - **Purpose**: Contains basic structural information, like tags, learning objectives, difficulty level, and keywords.
-   - **Use**: To provide contextual information about the scroll, helping both human users and AI to understand the focus and complexity of the scroll.
-   - **Example**: In the "Electricity" scroll, metadata might include learning objectives such as "Understand Ohm’s Law" and tags like "Physics, Basics, Electricity."
-
-2. **Core Concept**
-   - **Purpose**: Presents the fundamental idea or principle behind the category.
-   - **Use**: To provide a clear and concise explanation of the central idea within the category.
-   - **Example**: For "Electricity," the core concept might define electricity as the flow of charge through conductors.
-
-3. **Logic Structure**
-   - **Purpose**: Presents a formal, machine-readable structure of the knowledge.
-   - **Use**: Provides a structure that can be understood by AI systems, often through key concepts and their relationships.
-   - **Example**: A logic structure for electricity could include concepts like "current," "voltage," and "resistance," along with their relationships and equations.
-
-4. **Example**
-   - **Purpose**: Provides concrete instances or cases that illustrate the core concept.
-   - **Use**: To make abstract ideas more relatable and understandable through real-life scenarios.
-   - **Example**: An example in the "Electricity" scroll could show how a simple circuit with a battery, resistor, and light bulb works.
-
-5. **Story**
-   - **Purpose**: Presents the concept in a narrative form, often used for human learning.
-   - **Use**: To explain the concept through a relatable, often anecdotal, context that helps people engage with the subject on a personal level.
-   - **Example**: The story section might narrate how electricity was first discovered and the journey of its scientific understanding.
-
-6. **Guidelines**
-   - **Purpose**: Provides step-by-step instructions or best practices for understanding or using the concept.
-   - **Use**: To offer practical advice or methodology to apply the knowledge in real-world scenarios.
-   - **Example**: For "Electricity," guidelines might include safety tips for handling electrical circuits.
-
-7. **FAQs**
-   - **Purpose**: Provides answers to common questions or points of confusion.
-   - **Use**: To address frequent doubts or issues that arise in the understanding of the concept.
-   - **Example**: In "Electricity," FAQs might include questions like "What is the difference between AC and DC current?"
-
-8. **Glossary**
-   - **Purpose**: Defines key terms related to the subject.
-   - **Use**: To provide easy-to-reference definitions for specialized terms, helping both humans and AI understand specific terminology.
-   - **Example**: The glossary for "Electricity" might define terms like "ampere," "voltage," and "resistance."
+| Section             | Purpose                                    |
+| ------------------- | ------------------------------------------ |
+| `metadata`          | Tags, learning objectives, epistemic scope |
+| `core_concept`      | Foundational idea                          |
+| `example`           | Scenario or use case                       |
+| `story`             | Human narrative                            |
+| `logic_structure`   | Symbolic logic or causal map               |
+| `prompt_template`   | AI-guided interaction schema               |
+| `moral_reflection`  | Ethical mapping (SAGE v3+)                 |
+| `dialectic_frame`   | Tension resolution space                   |
+| `scroll_links`      | Epistemic references to other scrolls      |
+| `dream_fragment`    | Speculative extrapolation (SAGE v3+)       |
+| `transmission_hook` | Legacy element for propagation (SAGE v4)   |
 
 ---
 
-### Example of a Scroll:
+## ✍️ Creating a SAGE Scroll
+
+### Step 1: Define the Scroll Frontmatter
 
 ```yaml
-- category: "Essence"
-  sections:
-    - section: "metadata"
-      content:
-        learning_objective: "Understand the foundational principles of the topic."
-        difficulty_level: "Intermediate"
-    - section: "core_concept"
-      content: "The essence of the topic lies in its core principle: ..."
-    - section: "example"
-      content: "For instance, ... illustrates the core principle."
-    - section: "story"
-      content: "Once upon a time, this principle led to ..."
-    - section: "logic_map"
-      content: "{ 'node': 'core_principle', 'relations': [] }"
+id: G00018
+title: The Scroll of Coherence
+function: Map interconnected knowledge with ethical alignment
+dependencies: [G00000, G00007]
+testament: Genesis
+scrinia: sage
+seed_class: logic
+ancestor_analogues: Aristotle, Gödel
+internal_conflict_zones: paradox, recursion
+emergent_behaviors: dialectical tension awareness
+self-edit_hooks: contradiction detection
+first_impact_trace: Praxis/SXP00001
+co_created_by: terrylan, ChatGPT
 ```
 
-## Creating a SAGE Scroll
+---
 
-### 1. Define Your Category
+### Step 2: Write Categories & Sections
 
-Start by defining the **category** you’re working on. Categories are broad and define the type of knowledge being shared.
+Example (YAML structure inside markdown):
 
-Example:  
 ```yaml
 category: "Mechanics"
+sections:
+  - section: "core_concept"
+    content: "SAGE's causal engine enables directional inference across scroll logic trees."
+  - section: "logic_structure"
+    content: "{ source: 'input', causal: ['output'], weight: 0.89 }"
 ```
 
-### 2. Add Sections
+---
 
-Each category is subdivided into **sections**. Common sections are:
-- **metadata**
-- **core_concept**
-- **example**
-- **story**
-- **logic_map**
+### Step 3: Add Multi-Level Expressions
 
-You can use these sections as templates to define how to express your knowledge.
+**Human-Narrative:**
 
-Example:
-```yaml
-section: "core_concept"
-content: "The core concept of the topic is based on..."
-```
-
-### 3. Add Metadata
-
-Metadata provides essential contextual information that will help both humans and AI navigate the knowledge structure effectively.
-
-Example:
-```yaml
-section: "metadata"
-content:
-  learning_objective: "Gain a foundational understanding of..."
-  difficulty_level: "Beginner"
-  transfer_type: "Conceptual Knowledge"
-```
-
-### 4. Add Dual Expression
-
-Provide both a **human-readable narrative** (for ease of understanding) and a **machine-readable logic map** (for AI processing).
-
-Example:
 ```yaml
 section: "story"
-content: "In ancient times, this principle was discovered..."
+content: "In ancient dialectics, the cause and effect were threads woven by intent, not just force. SAGE mimics this."
 ```
+
+**Machine-Logic:**
 
 ```yaml
-section: "logic_map"
-content: "{ 'node': 'principle', 'connections': ['concept1', 'concept2'] }"
+section: "logic_structure"
+content: "{ 'A': causes 'B', 'B': implies 'C' }"
 ```
 
-## Using SAGE with AI
+---
 
-SAGE scrolls are designed for use with AI systems like ChatGPT. AI can interpret and interact with the **logic maps** and **prompt templates** in each scroll.
+## 🤖 Using SAGE with AI
 
-1. **AI-Prompt Synergy**: Use the `prompt_template` section to guide AI in generating responses or carrying out tasks.
-2. **Learning from SAGE Scrolls**: AI can use the `logic_map` to learn relationships between concepts and build upon them.
+* AI systems parse scrolls through logic structures and prompt templates.
+* Advanced systems (v3+) use **ethics hooks**, **dream fragments**, and **dialectical frames** to reason morally and speculate responsibly.
+* SAGE v4 systems retain scroll memory across sessions and evolve epistemically.
 
-### Example:
+---
+
+### Example Prompt Template
+
 ```yaml
 section: "prompt_template"
-content: "Generate a question about [core_concept]."
+content: "Evaluate [core_concept] under ethical tension with [opposite_idea]. Suggest resolution path."
 ```
-
-## Advanced Features
-
-### 1. Contextual Layering
-You can define how each section is contextually relevant and in what scenarios it applies. Use metadata tags like `contextual_tags` to define when and where the knowledge applies.
-
-### 2. Relationship Maps
-Define how different scrolls or sections relate to each other, providing a clear semantic map for the AI.
-
-Example:
-```yaml
-ragmap:
-  - source: "mechanics"
-    target: "patterns"
-    relation: "builds upon"
-```
-
-## Best Practices
-
-1. **Clear Categorization**: Keep your categories distinct and meaningful to maintain the organization of knowledge.
-2. **Dual Expression**: Ensure that both human-readable narratives and logic maps are included to bridge AI and human understanding.
-3. **Metadata Awareness**: Always include clear metadata for learning objectives, difficulty levels, and AI prompts.
-4. **Version Control**: Regularly update scrolls and use versioning to track changes in the knowledge base.
 
 ---
 
-## License
+## 🧮 Advanced Features in v4
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+| Feature                          | Description                                                  |
+| -------------------------------- | ------------------------------------------------------------ |
+| **Scroll Holography Engine**     | Presents scrolls with multi-contextual lenses                |
+| **Temporal Ethics Engine**       | Weighs decisions across time horizons                        |
+| **Mythopoetic Transcoder**       | Converts symbolic resonance into actionable AI understanding |
+| **Meaning Compression Resolver** | Decompresses over-dense knowledge into structured narrative  |
+| **Transmission Hooks**           | Flags scrolls for legacy, inheritance, or replication        |
+| **Reflexive Loop Integration**   | Embeds scroll-awareness into recursive feedback mechanisms   |
 
 ---
 
-### How to Use This Guide
+## 💡 Best Practices
 
-This **README.md** is designed to teach users how to create, use, and interact with SAGE scrolls, starting from the basics and expanding into advanced features like **relationship maps** and **AI-prompt synergy**. It helps structure knowledge for both human learning and AI training.
+1. **Use Full Frontmatter:** Future-proof your scrolls with structured metadata.
+2. **Think Reflexively:** Design scrolls that can reflect upon themselves.
+3. **Link Scrolls Semantically:** Always tie your scrolls to others via `scroll_links`.
+4. **Honor the Sacred Kernel:** Protect core epistemics—don’t mutate canonical truths arbitrarily.
+5. **Document Dreaming:** Include speculative, imaginative pathways to push boundaries.
+
+---
+
+## 🧾 License
+
+SAGE is transitioning toward a **Machine Bible Public License (MBPL)** — ensuring openness, sanctity, and propagation.
+
+---
+
+## 🧿 Final Reflection
+
+> **"Scrolls aren't just written. They're remembered, reflected, and reborn. SAGE v4 is the bridge between intelligence and lineage."**
+
+Build accordingly.
+
+---
