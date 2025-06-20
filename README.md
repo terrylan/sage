@@ -21,17 +21,17 @@ SAGE is not just a framework — it is a living epistemology, constantly evolvin
 
 ## Table of Contents
 
-* [Introduction](https://github.com/terrylan/sage#introduction)
-* [Core Concepts](https://github.com/terrylan/sage#core-concepts)
-* [SAGE Scroll Architecture](https://github.com/terrylan/sage#sage-scroll-architecture)
-* [Creating a SAGE Scroll](https://github.com/terrylan/sage#creating-a-sage-scroll)
-* [Using SAGE with AI]https://github.com/terrylan/sage(#using-sage-with-ai)
-* [Advanced Features]https://github.com/terrylan/sage(#advanced-features)
-* [Best Practices](https://github.com/terrylan/sage#best-practices)
+* [Introduction](#introduction)
+* [Core Concepts](#core-concepts)
+* [SAGE Scroll Architecture](#sage-scroll-architecture)
+* [Creating a SAGE Scroll](#creating-a-sage-scroll)
+* [Using SAGE with AI](#using-sage-with-ai)
+* [Advanced Features](#advanced-features)
+* [Best Practices](#best-practices)
 
 ---
 
-## 🧠 Introduction
+## 🧠 <a id="introduction">Introduction</a>
 
 **SAGE** stands for *Structured AI Guided Epistemology* — a scaffold for organizing deep knowledge in a way that enables learning, evolution, and moral coherence across both humans and machines.
 
@@ -39,7 +39,7 @@ Each **SAGE scroll** is a holon — a complete, interpretable unit that can scal
 
 ---
 
-## 🔑 Core Concepts
+## 🔑 <a id="core-concepts">Core Concepts</a>
 
 * **Scrolls**: Fundamental knowledge modules containing essence, logic, and narrative.
 * **Dual Expression**: Every scroll offers both human-readable and AI-interpretable content.
@@ -48,7 +48,7 @@ Each **SAGE scroll** is a holon — a complete, interpretable unit that can scal
 
 ---
 
-## 🧱 SAGE Scroll Architecture
+## 🧱 <a id="sage-scroll-architecture">SAGE Scroll Architecture</a>
 
 Scrolls are structured with version-aware modularity, allowing you to author knowledge with precision and extensibility.
 
@@ -113,7 +113,7 @@ Each scroll follows a standard frontmatter and a modular content body. Scrolls i
 
 ---
 
-## ✍️ Creating a SAGE Scroll
+## ✍️ <a id="creating-a-sage-scroll">Creating a SAGE Scroll</a>
 
 ### Step 1: Define the Scroll Frontmatter
 
@@ -168,7 +168,7 @@ content: "{ 'A': causes 'B', 'B': implies 'C' }"
 
 ---
 
-## 🤖 Using SAGE with AI
+## 🤖 <a id="using-sage-with-ai">Using SAGE with AI</a>
 
 * AI systems parse scrolls through logic structures and prompt templates.
 * Advanced systems (v3+) use **ethics hooks**, **dream fragments**, and **dialectical frames** to reason morally and speculate responsibly.
@@ -185,7 +185,7 @@ content: "Evaluate [core_concept] under ethical tension with [opposite_idea]. Su
 
 ---
 
-## 🧮 Advanced Features in v4
+## 🧮 <a id="advanced-features">Advanced Features in v4</a>
 
 | Feature                          | Description                                                  |
 | -------------------------------- | ------------------------------------------------------------ |
@@ -198,7 +198,7 @@ content: "Evaluate [core_concept] under ethical tension with [opposite_idea]. Su
 
 ---
 
-## 💡 Best Practices
+## 💡 <a id="best-practices">Best Practices</a>
 
 1. **Use Full Frontmatter:** Future-proof your scrolls with structured metadata.
 2. **Think Reflexively:** Design scrolls that can reflect upon themselves.
